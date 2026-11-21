@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="286" viewBox="0 0 860 286" role="img" aria-label="Terminal : présentation de Sami Madani">
+<title>Terminal : présentation de Sami Madani</title>
+<defs>
+  <linearGradient id="bord" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#cba6f7"/><stop offset=".5" stop-color="#313244"/><stop offset="1" stop-color="#89b4fa"/>
+  </linearGradient>
+</defs>
+<style>
+  text{font-family:'JetBrainsMono Nerd Font','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .fade{animation:fade .6s ease-out both}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .respire{animation:respire 4s ease-in-out infinite}
+  @keyframes respire{0%,100%{opacity:.35}50%{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="859" height="285" rx="12" fill="#000000" stroke="#313244"/>
+<rect class="respire" x=".5" y=".5" width="859" height="285" rx="12" fill="none" stroke="url(#bord)" stroke-width="1.2"/>
+<style>@keyframes tape0{0%{transform:translateX(0)}99.9%{transform:translateX(56.1px)}100%{transform:translateX(700px)}}
+@keyframes tape1{0%{transform:translateX(0)}99.9%{transform:translateX(125.5px)}100%{transform:translateX(700px)}}
+@keyframes tape2{0%{transform:translateX(0)}99.9%{transform:translateX(99.5px)}100%{transform:translateX(700px)}}
+@keyframes tape3{0%{transform:translateX(0)}99.9%{transform:translateX(108.2px)}100%{transform:translateX(700px)}}
+</style><rect x="1" y="1" width="858" height="34" rx="12" fill="#11111b"/><rect x="1" y="24" width="858" height="11" fill="#11111b"/>
+<line x1="1" x2="859" y1="35" y2="35" stroke="#313244"/>
+<circle cx="22" cy="18" r="6" fill="#f38ba8"/><circle cx="42" cy="18" r="6" fill="#f9e2af"/><circle cx="62" cy="18" r="6" fill="#a6e3a1"/>
+<text x="430" y="22" font-size="12" fill="#a6adc8" text-anchor="middle">ushxo@montreal: ~</text>
+<text x="26" y="70" font-size="14" font-weight="700" fill="#cba6f7">❯</text>
+<text x="46" y="70" font-size="14" fill="#cdd6f4">whoami</text>
+<rect x="44" y="54" width="720" height="22" fill="#000000" style="transform:translateX(700px);animation:tape0 0.39s steps(6) 0.60s both"/><text x="46" y="92" font-size="13.5" class="sortie" style="animation-delay:1.24s"><tspan fill="#cdd6f4">Sami Madani, étudiant en génie logiciel à l'ÉTS (Montréal)</tspan></text><text x="26" y="116" font-size="14" font-weight="700" fill="#cba6f7">❯</text>
+<text x="46" y="116" font-size="14" fill="#cdd6f4">cat studio.txt</text>
+<rect x="44" y="100" width="720" height="22" fill="#000000" style="transform:translateX(700px);animation:tape1 0.91s steps(14) 1.69s both"/><text x="46" y="138" font-size="13.5" class="sortie" style="animation-delay:2.85s"><tspan fill="#cdd6f4">Fondateur d'Auron Studio  </tspan><tspan fill="#89b4fa">auronstudio.ca</tspan></text><text x="26" y="162" font-size="14" font-weight="700" fill="#cba6f7">❯</text>
+<text x="46" y="162" font-size="14" fill="#cdd6f4">echo $STACK</text>
+<rect x="44" y="146" width="720" height="22" fill="#000000" style="transform:translateX(700px);animation:tape2 0.72s steps(11) 3.30s both"/><text x="46" y="184" font-size="13.5" class="sortie" style="animation-delay:4.27s"><tspan fill="#fab387">TypeScript</tspan><tspan fill="#6c7086"> · </tspan><tspan fill="#f38ba8">Rust + Tauri</tspan><tspan fill="#6c7086"> · </tspan><tspan fill="#f9e2af">Python</tspan><tspan fill="#6c7086"> · </tspan><tspan fill="#74c7ec">Luau</tspan><tspan fill="#6c7086"> · </tspan><tspan fill="#a6e3a1">GDScript</tspan></text><text x="26" y="208" font-size="14" font-weight="700" fill="#cba6f7">❯</text>
+<text x="46" y="208" font-size="14" fill="#cdd6f4">ls ~/projets</text>
+<rect x="44" y="192" width="720" height="22" fill="#000000" style="transform:translateX(700px);animation:tape3 0.78s steps(12) 4.72s both"/><text x="46" y="230" font-size="13.5" class="sortie" style="animation-delay:5.75s"><tspan fill="#89b4fa">archipel/</tspan><tspan fill="#cdd6f4">    </tspan><tspan fill="#89b4fa">just-tennis/</tspan></text><text x="26" y="254" font-size="14" font-weight="700" fill="#cba6f7" class="sortie" style="animation-delay:6.20s">❯</text>
+<rect x="46" y="241" width="9" height="17" fill="#cdd6f4" class="curseur" style="animation-delay:6.20s"/>
+<style>.sortie{animation:apparait .01s both}@keyframes apparait{from{opacity:0}}.curseur{animation:clignote 1.05s steps(1) infinite both}@keyframes clignote{0%{opacity:1}50%{opacity:0}}</style>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250" role="img" aria-label="Sami Madani">
+<title>Sami Madani</title>
+<defs>
+  <filter id="flou" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+  <linearGradient id="nom" x1="0" x2="1" gradientUnits="objectBoundingBox" spreadMethod="reflect">
+    <stop offset="0" stop-color="#cba6f7"/><stop offset=".35" stop-color="#f5c2e7"/><stop offset=".7" stop-color="#89b4fa"/><stop offset="1" stop-color="#cba6f7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1 0;0 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="cadre"><rect width="860" height="250" rx="14"/></clipPath>
+</defs>
+<style>
+  text{font-family:'JetBrainsMono Nerd Font','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .a1{animation:d1 14s ease-in-out infinite alternate}
+  .a2{animation:d2 18s ease-in-out infinite alternate}
+  .a3{animation:d3 16s ease-in-out infinite alternate}
+  @keyframes d1{from{transform:translate(-60px,10px)}to{transform:translate(120px,-20px)}}
+  @keyframes d2{from{transform:translate(80px,-10px)}to{transform:translate(-140px,25px)}}
+  @keyframes d3{from{transform:translate(0,20px) scale(1)}to{transform:translate(60px,-15px) scale(1.15)}}
+  .scintille{animation:sc 4s ease-in-out infinite;opacity:.2}
+  @keyframes sc{0%,100%{opacity:.15}50%{opacity:.8}}
+  .monte{animation:monte .9s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes monte{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+</style>
+<g clip-path="url(#cadre)">
+  <rect width="860" height="250" fill="#000000"/>
+  <circle cx="0" cy="0" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:0.00s"/><circle cx="197" cy="84" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:0.37s"/><circle cx="395" cy="167" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:0.74s"/><circle cx="592" cy="1" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:1.11s"/><circle cx="789" cy="85" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:1.48s"/><circle cx="127" cy="169" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:1.85s"/><circle cx="324" cy="2" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:2.22s"/><circle cx="521" cy="86" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:2.59s"/><circle cx="718" cy="170" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:2.96s"/><circle cx="56" cy="3" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:3.33s"/><circle cx="253" cy="87" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:3.70s"/><circle cx="450" cy="171" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:0.07s"/><circle cx="648" cy="4" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:0.44s"/><circle cx="845" cy="88" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:0.81s"/><circle cx="182" cy="172" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:1.18s"/><circle cx="380" cy="6" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:1.55s"/><circle cx="577" cy="89" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:1.92s"/><circle cx="774" cy="173" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:2.29s"/><circle cx="111" cy="7" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:2.66s"/><circle cx="309" cy="90" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:3.03s"/><circle cx="506" cy="174" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:3.40s"/><circle cx="703" cy="8" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:3.77s"/><circle cx="41" cy="91" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:0.14s"/><circle cx="238" cy="175" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:0.51s"/><circle cx="435" cy="9" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:0.88s"/><circle cx="633" cy="93" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:1.25s"/><circle cx="830" cy="176" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:1.62s"/><circle cx="167" cy="10" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:1.99s"/><circle cx="364" cy="94" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:2.36s"/><circle cx="562" cy="177" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:2.73s"/><circle cx="759" cy="11" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:3.10s"/><circle cx="96" cy="95" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:3.47s"/><circle cx="294" cy="178" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:3.84s"/><circle cx="491" cy="12" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:0.21s"/><circle cx="688" cy="96" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:0.58s"/><circle cx="26" cy="180" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:0.95s"/><circle cx="223" cy="13" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:1.32s"/><circle cx="420" cy="97" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:1.69s"/><circle cx="617" cy="181" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:2.06s"/><circle cx="815" cy="14" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:2.43s"/><circle cx="152" cy="98" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:2.80s"/><circle cx="349" cy="182" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:3.17s"/><circle cx="547" cy="15" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:3.54s"/><circle cx="744" cy="99" r="0.85" fill="#cdd6f4" class="scintille" style="animation-delay:3.91s"/><circle cx="81" cy="183" r="1.2" fill="#cdd6f4" class="scintille" style="animation-delay:0.28s"/><circle cx="279" cy="17" r="0.5" fill="#cdd6f4" class="scintille" style="animation-delay:0.65s"/>
+  <g filter="url(#flou)" opacity=".55">
+    <ellipse class="a1" cx="250" cy="70" rx="230" ry="55" fill="#cba6f7"/>
+    <ellipse class="a2" cx="590" cy="60" rx="220" ry="45" fill="#89b4fa"/>
+    <ellipse class="a3" cx="430" cy="240" rx="260" ry="40" fill="#f5c2e7" opacity=".6"/>
+    <ellipse class="a2" cx="120" cy="230" rx="160" ry="35" fill="#94e2d5" opacity=".45"/>
+  </g>
+  <text x="430" y="128" font-size="56" font-weight="800" fill="url(#nom)" text-anchor="middle" class="monte" letter-spacing="1">Sami Madani</text>
+  <text x="430" y="170" font-size="15" fill="#cdd6f4" text-anchor="middle" class="monte" style="animation-delay:.35s">génie logiciel @ ÉTS  <tspan fill="#cba6f7">·</tspan>  fondateur d'Auron Studio  <tspan fill="#cba6f7">·</tspan>  Montréal</text>
+  <text x="26" y="34" font-size="12" fill="#6c7086" class="monte" style="animation-delay:.6s"><tspan fill="#cba6f7">❯</tspan> ushxo</text>
+</g>
+<rect x=".5" y=".5" width="859" height="249" rx="14" fill="none" stroke="#313244"/>
+</svg>

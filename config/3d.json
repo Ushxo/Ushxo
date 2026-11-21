@@ -1,0 +1,19 @@
+{
+  "type": "normal",
+  "fileName": "profil-3d.svg",
+  "backgroundColor": "#000000",
+  "foregroundColor": "#cdd6f4",
+  "strongColor": "#f5c2e7",
+  "weakColor": "#6c7086",
+  "radarColor": "#cba6f7",
+  "growingAnimation": true,
+  "contribColors": ["#181825", "#3b2f52", "#6c4f99", "#9a7ad0", "#cba6f7"],
+  "l10n": {
+    "commit": "Commits",
+    "repo": "Dépôts",
+    "review": "Revues",
+    "pullreq": "PR",
+    "issue": "Tickets",
+    "contrib": "contributions"
+  }
+}

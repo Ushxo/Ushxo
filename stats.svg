@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="210" viewBox="0 0 420 210" role="img" aria-label="Statistiques GitHub de Ushxo">
+<title>Statistiques GitHub de Ushxo</title>
+<defs>
+  <linearGradient id="bord" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#cba6f7"/><stop offset=".5" stop-color="#313244"/><stop offset="1" stop-color="#89b4fa"/>
+  </linearGradient>
+</defs>
+<style>
+  text{font-family:'JetBrainsMono Nerd Font','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .fade{animation:fade .6s ease-out both}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .respire{animation:respire 4s ease-in-out infinite}
+  @keyframes respire{0%,100%{opacity:.35}50%{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="419" height="209" rx="12" fill="#000000" stroke="#313244"/>
+<rect class="respire" x=".5" y=".5" width="419" height="209" rx="12" fill="none" stroke="url(#bord)" stroke-width="1.2"/>
+<text x="24" y="36" font-size="15" font-weight="700"><tspan fill="#cba6f7">❯</tspan><tspan fill="#89b4fa" dx="8">~/</tspan><tspan fill="#cdd6f4">stats</tspan></text>
+<g class="fade" style="animation-delay:0.15s">
+  <rect x="24" y="63" width="8" height="8" rx="2" fill="#cba6f7"/>
+  <text x="42" y="72" font-size="13" fill="#a6adc8">Contributions totales</text>
+  <text x="272" y="72" font-size="14" font-weight="700" fill="#cdd6f4" text-anchor="end">1 628</text>
+</g>
+<g class="fade" style="animation-delay:0.27s">
+  <rect x="24" y="90" width="8" height="8" rx="2" fill="#f5c2e7"/>
+  <text x="42" y="99" font-size="13" fill="#a6adc8">12 derniers mois</text>
+  <text x="272" y="99" font-size="14" font-weight="700" fill="#cdd6f4" text-anchor="end">1 611</text>
+</g>
+<g class="fade" style="animation-delay:0.39s">
+  <rect x="24" y="117" width="8" height="8" rx="2" fill="#fab387"/>
+  <text x="42" y="126" font-size="13" fill="#a6adc8">Série actuelle</text>
+  <text x="272" y="126" font-size="14" font-weight="700" fill="#cdd6f4" text-anchor="end">1 j</text>
+</g>
+<g class="fade" style="animation-delay:0.51s">
+  <rect x="24" y="144" width="8" height="8" rx="2" fill="#f9e2af"/>
+  <text x="42" y="153" font-size="13" fill="#a6adc8">Plus longue série</text>
+  <text x="272" y="153" font-size="14" font-weight="700" fill="#cdd6f4" text-anchor="end">10 j</text>
+</g>
+<g class="fade" style="animation-delay:0.63s">
+  <rect x="24" y="171" width="8" height="8" rx="2" fill="#89b4fa"/>
+  <text x="42" y="180" font-size="13" fill="#a6adc8">Dépôts</text>
+  <text x="272" y="180" font-size="14" font-weight="700" fill="#cdd6f4" text-anchor="end">19</text>
+</g>
+<g transform="translate(340 118)">
+  <circle r="46" fill="none" stroke="#313244" stroke-width="8"/>
+  <circle r="46" fill="none" stroke="url(#anneau)" stroke-width="8" stroke-linecap="round" transform="rotate(-90)"
+    stroke-dasharray="289.0" stroke-dashoffset="241.5" style="animation:remplir 1.6s .3s cubic-bezier(.2,.8,.2,1) both"/>
+  <text y="2" font-size="22" font-weight="700" fill="#cdd6f4" text-anchor="middle" class="fade" style="animation-delay:.9s">60</text>
+  <text y="20" font-size="10" fill="#a6adc8" text-anchor="middle" class="fade" style="animation-delay:1s">jours actifs</text>
+</g>
+<style>@keyframes remplir{from{stroke-dashoffset:289.0}}</style>
+<defs><linearGradient id="anneau" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cba6f7"/><stop offset="1" stop-color="#f5c2e7"/></linearGradient></defs>
+</svg>
